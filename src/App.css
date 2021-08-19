@@ -9,7 +9,7 @@
   overflow: hidden;
   font-family: "Source Sans Pro", sans-serif;
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 1800px;
 }
 p,
 h4,
@@ -23,7 +23,7 @@ html {
 
 body {
   font-size: 1.4rem;
-  background-color: #262424;
+  background-color: #0C1618;
 }
 h1 {
   font-size: 9rem;
@@ -56,7 +56,7 @@ div {
 
 @media (max-width: 500px) {
   .main-wrapper {
-    padding: 10px;
+    padding: 0;
   }
   html {
     font-size: 60%;

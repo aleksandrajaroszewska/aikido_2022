@@ -11,10 +11,10 @@ const Header = () => {
         <img src={kanji} className="aiki-logo" alt="kanji" />
         </a>
         <div className="header buttons ">
-          <NavItem section="content" name="grupy" />
+          <NavItem section="groups" name="grupy" />
           <NavItem section="instructors" name="instruktorzy" />
           <NavItem section="dojo" name="klub" />
-          <NavItem section="aiki-footer" name="kontakt" />
+          <NavItem section="footer" name="kontakt" />
         </div>
       </nav>
     </StyledHeader>

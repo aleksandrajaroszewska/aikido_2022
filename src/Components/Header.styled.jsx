@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledHeader = styled.header`
   width: 100%;
   height: 80px;
-  background-color: #262424;
+  background-color: #0C1618;
   top: 0;
   left: 0;
   position: fixed;
@@ -31,8 +31,8 @@ export const StyledHeader = styled.header`
     align-items: center;
   }
   nav .btn {
-    color: #fdfffc;
-
+    color: #F0F7F4;
+    
     font-weight: 600;
     padding: 10px;
     list-style-type: none;
@@ -41,7 +41,7 @@ export const StyledHeader = styled.header`
     padding-bottom: 5px;
   }
   nav .btn:hover {
-    color: rgba(201, 132, 63, 1);
+    color: #D1AC00;
   }
 
   @media (max-width: 768px) {

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import footerImage from "../../src/Images/grupowe2.JPG"
+import footerImage from "../../src/Images/grupowe2.JPG";
 
 export const StyledFooter = styled.footer`
   background-image: url(${footerImage});
@@ -8,7 +8,7 @@ export const StyledFooter = styled.footer`
   height: 700px;
   width: 100%;
   display: flex;
-  color: #fdfffc;
+  color: #f0f7f4;
   position: relative;
   justify-content: center;
   align-items: flex-end;
@@ -22,33 +22,32 @@ export const StyledFooter = styled.footer`
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(28, 26, 26, 0.6);
+    background-color: rgba(12, 22, 24, 0.7);
   }
 
   .box {
     max-width: 600px;
     width: 100%;
-    color: #fdfffc;
-
+    color: #f0f7f4;
     position: relative;
     z-index: 10;
     padding: 10px;
     padding-bottom: 50px;
   }
   h4 {
-    color: rgb(236 18 18);
+    color: #d1ac00;
     margin-bottom: 10px;
     font-size: 2.5rem;
   }
   a {
-    color: #fdfffc;
+    color: #f0f7f4;
     text-decoration: none;
     display: block;
     width: 100%;
     margin-top: 5px;
   }
   a:hover {
-    color: #c61111;
+    color: #d1ac00;
   }
   .contact-Box p {
     margin-top: 5px;
@@ -70,5 +69,13 @@ export const StyledFooter = styled.footer`
   .wcaBox li {
     list-style-type: none;
     margin-top: 3px;
+  }
+
+  @media (max-width: 768px) {
+    height: 300px;
+
+    .wcaBox {
+      display: none;
+    }
   }
 `;

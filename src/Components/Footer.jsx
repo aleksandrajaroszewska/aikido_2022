@@ -3,7 +3,7 @@ import { StyledFooter } from "./Footer.styled";
 
 const Footer = () => {
   return (
-    <StyledFooter>
+    <StyledFooter className="footer">
       <div className="box contact-Box">
         <h4>dojo Pruszków </h4>
         <p>Rafał Jaroszewski</p>

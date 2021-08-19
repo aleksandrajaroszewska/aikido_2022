@@ -24,7 +24,7 @@ export const StyledTopInfo = styled.section`
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(28, 26, 26, 0.5);
+    background-color: rgba(12, 22, 24, 0.7);
   }
 
   .welcome {
@@ -36,7 +36,7 @@ export const StyledTopInfo = styled.section`
 
   .welcome h1 {
     font-family: "Montserrat", sans-serif;
-    color: #fff;
+    color: #F0F7F4;
     text-align: center;
     margin-bottom: 0;
     font-size: 15rem;
@@ -51,7 +51,7 @@ export const StyledTopInfo = styled.section`
     font-family: "Montserrat", sans-serif;
     margin-top: 40px;
     width: 100%;
-    color: #fdfffc;
+    color: #F0F7F4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,12 +67,12 @@ export const StyledTopInfo = styled.section`
   }
   .training-plan h2 {
     margin-bottom: 15px;
-    color: #c61111;
+    color: #D1AC00;
     text-transform: uppercase;
     text-align: center;
   }
   .training-plan a {
-    color: #c61111;
+    color: #D1AC00;
     margin-top: 20px;
     text-decoration: none;
     text-align: center;
@@ -83,33 +83,11 @@ export const StyledTopInfo = styled.section`
     margin-top: 20px;
   }
   .training-plan a:hover {
-    color: white;
+    color: #F0F7F4;
   }
 
-  .arrow-box {
-    width: 80px;
-    height: 80px;
-    background-color: #262424;
-    color: #fdfffc;
-    border-radius: 50px;
-    position: absolute;
-    bottom: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    z-index: 80;
-    display: none;
-  }
-  .fa-arrow-down:hover {
-    opacity: 0.8;
-    transform: scale(0.9);
-  }
-  .arrow-box .fa-arrow-down {
-    font-size: 4rem;
-  }
 
-   .logo {
+  .logo {
     position: absolute;
     bottom: 60px;
     right: 60px;
@@ -128,9 +106,6 @@ export const StyledTopInfo = styled.section`
     .welcome span {
       font-size: 2rem;
       line-height: 3rem;
-    }
-    .arrow-box {
-      display: none;
     }
     .training-plan {
       margin-top: 30px;
@@ -153,9 +128,17 @@ export const StyledTopInfo = styled.section`
       bottom: 20px;
       right: 20px;
     }
-     a img {
+    a img {
       width: 60px;
       height: 60px;
     }
+  }
+`;
+
+export const StyledDojoIframe = styled.section`
+
+  iframe {
+    width: 100%;
+    height: 40vh;
   }
 `;

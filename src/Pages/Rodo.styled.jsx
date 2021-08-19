@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
 export const StyledRodo = styled.section`
-
-  color: white;
+   color: #F0F7F4;
   padding: 50px 100px;
 
   a {
-    color: white;
+    color: #F0F7F4;
     text-transform: uppercase;
     text-decoration: none;
   }
