@@ -69,11 +69,7 @@ const InstructorsZone = () => {
             (7DAN).
           </p>
           <p>Intruktor grupy dziecięcej.</p>
-          <p>
-            Uczestniczy regularnie w stażach prowadzonych przez różnych mistrzów
-            zarówno szkoły Kobayashi jak i innych linii Aikido oraz obozach i
-            treningach instruktorskich organizowanych w ramach WCA.
-          </p>
+   
           <span>
             Instruktor rekreacji ruchowej samoobrona-aikido leg. nr 72/04
           </span>

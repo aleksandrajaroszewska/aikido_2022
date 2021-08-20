@@ -29,7 +29,7 @@ export const StyledTopInfo = styled.section`
 
   .welcome {
     position: absolute;
-    top: 15vh;
+    top: 20vh;
     width: 100%;
     z-index: 50;
   }
@@ -40,7 +40,8 @@ export const StyledTopInfo = styled.section`
     text-align: center;
     margin-bottom: 0;
     font-size: 15rem;
-    line-height: 16rem;
+    margin:0;
+
   }
   .welcome span {
     font-size: 4rem;
@@ -97,11 +98,11 @@ export const StyledTopInfo = styled.section`
     background-attachment: unset;
 
     .welcome {
-      top: 35vh;
+      top: 30vh;
     }
     .welcome h1 {
-      font-size: 4rem;
-      line-height: 2rem;
+      font-size: 5rem;
+ 
     }
     .welcome span {
       font-size: 2rem;
@@ -112,8 +113,7 @@ export const StyledTopInfo = styled.section`
     }
     .training-plan h3,
     .training-plan h2 {
-      font-size: 1.6rem;
-      line-height: 1.6rem;
+      font-size: 2rem;
     }
     .training-plan h3 span {
       font-size: 1.4rem;

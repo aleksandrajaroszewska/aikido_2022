@@ -14,7 +14,6 @@ const WcaZone = () => {
           >
             <h3>Warszawskie Centrum Aikido</h3>
           </a>
-
           <p>
             Warszawskie Centrum Aikido (WCA) powstało w listopadzie 2001 roku z
             inicjatywy Marcina Ziółkowskiego i Michała Kaźmierczaka i

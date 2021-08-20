@@ -4,7 +4,6 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 const Slider = ({ images, desc }) => {
   const imagesArray = [];
-  console.log(images);
 
   for (let i = 0; i < images.length; i++) {
     if (desc) {
