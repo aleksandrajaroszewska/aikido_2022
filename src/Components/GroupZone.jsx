@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Adults, Kids, Young } from "../Images/import";
+import { Kids, Young,Adults } from "../assets/slides";
 import Slider from "../Atoms/Slider";
 import { StyledZone, StyledZoneRow } from "./Zones.styled";
 

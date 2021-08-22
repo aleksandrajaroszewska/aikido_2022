@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { StyledTopInfo, StyledDojoIframe } from "./TopInfo.styled";
 
-import logo from "../../src/Images/logo-wca.png";
+import logo from "../../src/assets/logo-wca.png";
 
 const TopInfo = () => {
   return (
@@ -25,14 +25,6 @@ const TopInfo = () => {
             </h3>
 
             <h4>zapraszamy</h4>
-            <a
-              target="_blank"
-              rel="noreferrer noopener"
-              href="https://aikido.warszawa.pl/rabaty.html"
-            >
-              {" "}
-              sprawdź rabaty
-            </a>
           </div>
         </div>
         <a

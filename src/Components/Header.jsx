@@ -1,6 +1,6 @@
 import React from "react";
 import NavItem from "../Atoms/NavItem";
-import kanji from "../../src/Images/kanji_white.png";
+import kanji from "../../src/assets/kanji_white.png";
 import { StyledHeader } from "./Header.styled";
 
 const Header = () => {
@@ -14,6 +14,7 @@ const Header = () => {
           <NavItem section="groups" name="grupy" />
           <NavItem section="instructors" name="instruktorzy" />
           <NavItem section="dojo" name="klub" />
+          <NavItem section="prices" name="cennik" />
           <NavItem section="footer" name="kontakt" />
         </div>
       </nav>

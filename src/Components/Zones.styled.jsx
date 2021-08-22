@@ -11,15 +11,14 @@ export const StyledZone = styled.div`
     text-decoration: none;
     cursor: pointer;
   }
-  h3:hover {
-    opacity: 0.7;
-  }
+
   &.instructors {
     img {
       max-width: 400px;
     }
   }
-  &.dojo {
+  &.dojo,
+  &.prices {
     .textBox {
       width: 100%;
     }
@@ -58,6 +57,7 @@ export const StyledZoneRow = styled.div`
     width: 50%;
     max-width: 50%;
   }
+
   .image-gallery-thumbnail.active,
   .image-gallery-thumbnail:focus {
     border: 3px solid #d1ac00;
@@ -77,7 +77,30 @@ export const StyledZoneRow = styled.div`
       padding: 10px 0;
     }
     .textBox h3 {
-          font-size: 2rem;
+      font-size: 2rem;
     }
+  }
+`;
+
+export const StyledPrices = styled.div`
+  width: 100%;
+  display: flex;
+  > div {
+    border: 1px solid #7e8d85;
+    margin: 20px 20px 20px 0;
+    width: 100%;
+    padding: 10px 20px 20px 20px;
+    /* text-align: center; */
+  }
+  h4 {
+    color: #d1ac00;
+    margin: 10px 0;
+  }
+
+  a {
+    color: #7e8d85;
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
   }
 `;

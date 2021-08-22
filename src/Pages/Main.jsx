@@ -6,9 +6,11 @@ import TopInfo from "../Components/TopInfo";
 import GroupZone from "../Components/GroupZone";
 import InstructorsZone from "../Components/InstructorsZone";
 import WcaZone from "../Components/WcaZone";
-import firstParalax from "../../src/Images/best.JPG";
-import secondParalax from "../../src/Images/boken2.JPG";
-import thirdParalax from "../../src/Images/Adam.JPG";
+import Prices from "../Components/Prices"
+import firstParalax from "../../src/assets/paralax/mlodsza_grupowe_desktop.jpeg";
+import secondParalax from "../../src/assets/paralax/certyfikat.jpg";
+import thirdParalax from "../../src/assets/paralax/mata.jpg";
+import wozek from "../../src/assets/dzieci_mlodsze/wozek.jpeg";
 
 const Main = () => {
   return (
@@ -19,8 +21,10 @@ const Main = () => {
       <GroupZone />
       <StyledParalax img={secondParalax} />
       <InstructorsZone />
-      <StyledParalax img={thirdParalax} />
+      <StyledParalax img={wozek} />
       <WcaZone />
+      <StyledParalax img={thirdParalax} />
+      <Prices/>
       <Footer />
     </StyledMain>
   );

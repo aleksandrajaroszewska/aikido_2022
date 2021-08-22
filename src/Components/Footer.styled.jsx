@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import footerImage from "../../src/Images/grupowe2.JPG";
+import footerImage from "../../src/assets/grupowe.jpeg";
 
 export const StyledFooter = styled.footer`
   background-image: url(${footerImage});

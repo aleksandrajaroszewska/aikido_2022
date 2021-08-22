@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import topInfoImage from "../../src/Images/top.jpg";
+import topInfoImage from "../../src/assets/top.jpg";
 
 export const StyledTopInfo = styled.section`
   background-image: url(${topInfoImage});
