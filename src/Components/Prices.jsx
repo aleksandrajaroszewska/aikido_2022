@@ -8,24 +8,27 @@ const Prices = () => {
       <StyledZoneRow>
         <div className="textBox">
           <h3>Cennik</h3>
-          <p>
-            Podstawowa składka wynosi: <h3>200zł miesięcznie za osobę.</h3>
-          </p>
-          <p>
-            Możesz uczestniczyć we wszystkich treningach w WCA, w dowolnej
-            lokalizacji
-          </p>
+         
+          
           <StyledPrices>
+          <div>
+          <p>składka miesięczna</p> <h4>200 pln</h4>  obejmuje treningi w Warszawskim Centrum Aikido, w dowolnej
+          lokalizacji
+        </div>
             <div>
-              <p>płatność kwartalna/roczna</p> <h4>540zł/1700</h4> rabat
-              20zł/30zł miesięcznie
+              <p>składka za 3 miesiące</p> <h4>540 pln</h4> oszczędzasz
+              20 pln miesięcznie
             </div>
             <div>
-              <p>znika rodzinna</p> <h4> 2osoby - 180zł </h4>{" "}
-              <h4> 3osoby - 160zł </h4> za miesiąc za osobę{" "}
+            <p>składka za 10 miesięcy</p> <h4>1700 pln</h4> oszczędzasz
+            30 pln miesięcznie
+          </div>
+            <div className="family">
+              <p>składka rodzinna</p> <p> <h4> 360 pln</h4>za 2 osoby/miesiąc</p> 
+              <p><h4> 480 pln  </h4> za 3 osoby/miesiąc </p>
             </div>
             <div>
-              program rabatowy <h4>do 30% rabatu</h4>{" "}
+               program rabatowy<h4>do 30% rabatu</h4>{" "}
               <h4>
                 <a
                   target="_blank"

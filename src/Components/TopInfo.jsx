@@ -12,7 +12,7 @@ const TopInfo = () => {
             Aikido<span> dojo Pruszków</span>
           </h1>
           <div className="training-plan">
-            <h2>zaczynamy nowy sezon 2021/2022 ! </h2>
+            <h2>AKtulane godziny treningów ! </h2>
             <h3> wtorek czwartek</h3>
             <h3>
               <span>dzieci młodsze:</span> 18.00 - 18.45
@@ -21,9 +21,8 @@ const TopInfo = () => {
               <span>dzieci starsze:</span> 18.50 - 19.35
             </h3>
             <h3>
-              <span>dorośli:</span> 19.45 - 21.15
+              <span>dorośli:</span> 19.40 - 21.10
             </h3>
-
             <h4>zapraszamy</h4>
           </div>
         </div>

@@ -52,6 +52,10 @@ export const StyledZoneRow = styled.div`
     margin-top: 10px;
     opacity: 0.7;
   }
+  .textBox .spaceless {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 
   .image-gallery {
     width: 50%;
@@ -95,6 +99,15 @@ export const StyledPrices = styled.div`
   h4 {
     color: #d1ac00;
     margin: 10px 0;
+  }
+  .family {
+    p {
+      display: flex;
+      align-items: baseline;
+      h4 {
+        margin: 0 4px 0 0;
+      }
+    }
   }
 
   a {
